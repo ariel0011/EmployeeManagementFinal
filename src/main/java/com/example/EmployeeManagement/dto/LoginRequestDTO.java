@@ -15,7 +15,7 @@ public class LoginRequestDTO
     @Email
     private String email;
     @NotBlank
-    @Size(min = 8 , max = 20)
+    @Size(min = 8 , max = 21)
     private String password;
 
     public LoginRequestDTO(String email , String password){
